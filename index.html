@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +29,18 @@
         section {
             padding: 20px;
         }
+        .resource-list {
+            list-style: none;
+            padding: 0;
+        }
+        .resource-list li {
+            margin: 10px 0;
+        }
+        .resource-list a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -45,6 +58,7 @@
     <nav>
         <a href="#about">About</a>
         <a href="#events">Events</a>
+        <a href="#resources">Resources</a>
         <a href="#contact">Contact</a>
     </nav>
     <section id="about">
@@ -55,6 +69,19 @@
         <h2>Upcoming Events</h2>
         <p>Stay tuned for upcoming hackathons, coding challenges, and tech talks.</p>
     </section>
+    <section id="resources">
+        <h2>Resources</h2>
+        <ul class="resource-list">
+            <li><a href="https://www.online-python.com/" target="_blank">Online Python Compiler</a></li>
+            <li><a href="https://docs.python.org/3.11/tutorial/index.html" target="_blank">Python Official Tutorial</a></li>
+            <li><a href="https://www.mycompiler.io/new/csharp" target="_blank">C# Online Compiler</a></li>
+            <li><a href="https://www.piskelapp.com/p/create/sprite" target="_blank">Piskel Sprite Editor</a></li>
+            <li><a href="https://unity.com/download" target="_blank">Unity Download</a></li>
+            <li><a href="https://www.blender.org/download/" target="_blank">Blender Download</a></li>
+            <li><a href="https://www.pygame.org/docs/" target="_blank">Pygame Documentation</a></li>
+            <li><a href="https://trinket.io/features/pygame" target="_blank">Trinket Pygame</a></li>
+        </ul>
+    </section>
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Email: csclub@school.edu</p>
@@ -64,4 +91,3 @@
     </footer>
 </body>
 </html>
-
